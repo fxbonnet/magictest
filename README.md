@@ -5,6 +5,7 @@ Do not use in the real life! Except from increasing the code coverage statistics
 Try it:
 
    * copy MagicTest class to your project's /src/test/java/ folder
+   * set the parent package of your project (hard-coded in MagicTest class)
    * add a test dependency to [guava](http://search.maven.org/#artifactdetails%7Ccom.google.guava%7Cguava%7C18.0%7Cbundle)
    * add [cobertura-maven-plugin](http://search.maven.org/#artifactdetails%7Corg.codehaus.mojo%7Ccobertura-maven-plugin%7C2.7%7Cmaven-plugin) to the project
    * mvn cobertura:cobertura
